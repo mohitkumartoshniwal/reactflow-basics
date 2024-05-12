@@ -1,0 +1,39 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.inputNode {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.inputNode input {
+  width: 5rem;
+}
+
+.inputNode button {
+  background-color: transparent;
+  border: solid 1px black;
+  padding: 0 0.5rem;
+  border-radius: 1rem;
+}
+
+.textNode {
+  width: 8rem;
+  height: 3rem;
+  padding: 0.5rem;
+  border: solid 1px black;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
