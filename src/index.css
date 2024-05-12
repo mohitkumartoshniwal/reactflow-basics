@@ -26,12 +26,15 @@ body,
   background-color: transparent;
   border: solid 1px black;
   padding: 0 0.5rem;
-  border-radius: 1rem;
+  border-radius: 0.1rem;
 }
 
 .textNode {
   width: 8rem;
   height: 3rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  background-color: white;
   padding: 0.5rem;
   border: solid 1px black;
   overflow-x: auto;
